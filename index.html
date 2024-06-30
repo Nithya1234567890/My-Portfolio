@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://rjshkhr.github.io/My-Portfolio" class="link"
+          >MN.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Nithya Munagapati.</span></h1>
+        <h2 class="about__role">A Full Stack Web Developer.</h2>
+        <p class="about__desc">
+            Welcome to my portfolio! I am a passionate and versatile Full Stack Web Developer with a knack for creating dynamic, user-friendly, and efficient web applications. With expertise in both front-end and back-end technologies, I bridge the gap between design and functionality, delivering seamless digital experiences.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/10dUldNGzREMfjcQubyTT4Hu2kw8V6sxC/view?usp=sharing">
+            <span class="btn btn--outline">See My Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/Nithya1234567890"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/nithya-munagapati-145a06272/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Project 1</h3>
+            <h5 style="margin-top: 16px;">Shopping Website</h5>
+            <p class="project__description">
+                Ecart is a modern and responsive shopping website designed to provide an exceptional user experience for online shoppers. Built with a focus on intuitive navigation and sleek design, Ecart allows users to effortlessly browse, search, and purchase products across various categories.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React Router</li>
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Bootstrap</li>
+            </ul>
+
+            <a
+              href="https://github.com/Nithya1234567890/shopping-website"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/shopping-website/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 2</h3>
+            <h5 style="margin-top: 16px;">Usability-Hub-Website</h5>
+            <p class="project__description">
+                Usability Hub is a user-centric website designed to evaluate and improve the usability of web interfaces through various testing methods. This platform allows designers, developers, and researchers to conduct tests, gather feedback, and analyze results to enhance user experience.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML5</li>
+              <li class="project__stack-item">CSS3</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a
+              href="https://github.com/Nithya1234567890/Usability-Hub-website"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/Usability-Hub-website/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 3</h3>
+            <h5 style="margin-top: 16px;">Currency Converter</h5>
+            <p class="project__description">CurrencyXchange allows users to quickly and accurately convert between various global currencies. The app features a clean, responsive design and a user-friendly interface, making it easy for users to perform conversions on the go.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Tailwind Css</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com/Nithya1234567890/currency-converter"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/currency-converter/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Project 4</h3>
+            <h5 style="margin-top: 16px;">Text to Speech</h5>
+            <p class="project__description">SpeakEasy is an innovative and user-friendly web application that converts written text into spoken words. This text-to-speech converter is designed to enhance accessibility and provide an engaging way to consume written content. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">js</li>
+              <li class="project__stack-item">Tailwind Css</li>
+              <li class="project__stack-item">Synthesis tool</li>
+            </ul>
+
+            <a
+              href="https://github.com/Nithya1234567890/text-to-speech"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/text-to-speech/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Project 5</h3>
+            <h5 style="margin-top: 16px;">Mind Game</h5>
+            <p class="project__description">Mind Match is an engaging and interactive memory game designed to challenge and improve users' memory power. The game involves flipping cards to find matching pairs of images within a limited number of attempts. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML5</li>
+              <li class="project__stack-item">Css 3</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a
+              href="https://github.com/Nithya1234567890/Mind-game"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/Mind-game/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Project 6</h3>
+            <h5 style="margin-top: 16px;">Emoji-Maker-game</h5>
+            <p class="project__description">Emoji Maker Game is an interactive and fun web application that allows users to create their own custom emojis. This game provides a variety of options for users to mix and match different facial features and accessories to design unique emojis. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML5</li>
+              <li class="project__stack-item">Css 3</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a
+              href="https://github.com/Nithya1234567890/Emoji-Maker-game"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/Emoji-Maker-game/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Project 7</h3>
+            <h5 style="margin-top: 16px;">Dice Game</h5>
+            <p class="project__description">Dice Roll Challenge is a simple yet exciting web-based game where players compete to achieve the highest score without rolling a 1. This game is built using HTML, CSS, and JavaScript, offering an engaging and interactive experience for players. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML5</li>
+              <li class="project__stack-item">Css 3</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a
+              href="https://github.com/Nithya1234567890/dice-game"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/dice-game/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Project 8</h3>
+            <h5 style="margin-top: 16px;">Github-Profile-Finder</h5>
+            <p class="project__description">GitHub Profile Finder is a sleek and efficient web application designed to help users quickly find and view GitHub profiles by simply entering a username.created a user-friendly interface, while utilizing the GitHub API to fetch and display profile data in real-time.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Css 3</li>
+              <li class="project__stack-item">API</li>
+            </ul>
+
+            <a
+              href="https://github.com/Nithya1234567890/github-profile-founder"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/github-profile-founder/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Project 9</h3>
+            <h5 style="margin-top: 16px;">Todo Website</h5>
+            <p class="project__description">It <img src="" alt="" srcset="">s a robust and user-friendly Todo website designed to help users organize and manage their daily tasks efficiently. Built using React, this application offers a seamless and responsive experience for tracking tasks, setting priorities, and staying organized.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Context Api</li>
+              <li class="project__stack-item">Redux js</li>
+            </ul>
+
+            <a
+              href="https://github.com/Nithya1234567890/todo-app"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/todo-app/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Project 10</h3>
+            <h5 style="margin-top: 16px;">Password-Generator</h5>
+            <p class="project__description">It is a robust and user-friendly password generator application built with React. Designed to help users create strong, secure passwords with ease, SecurePass offers a variety of customization options to ensure that passwords meet specific security requirements
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Tailwind CSS</li>
+              <li class="project__stack-item">js</li>
+            </ul>
+
+            <a
+              href="https://github.com/Nithya1234567890/password-generator"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/password-generator/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Project 11</h3>
+            <h5 style="margin-top: 16px;">Portfolio-Gallery</h5>
+            <p class="project__description">Portfolio Gallery is a visually appealing and user-friendly web-based portfolio that showcases creative works, projects, and achievements.It is designed to highlight the featured items in a clean and organized manner using CSS for styling and layout.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML5</li>
+              <li class="project__stack-item">CSS grid</li>
+              <li class="project__stack-item">Responsive</li>
+            </ul>
+            <a
+              href="https://github.com/Nithya1234567890/Portfolio-gallery"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/Portfolio-gallery/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Project 12</h3>
+            <h5 style="margin-top: 16px;">Image-Uploader</h5>
+            <p class="project__description">It is a modern and user-friendly image upload website built with React. It provides a seamless platform for users to upload, manage, and share their images. Designed with a focus on simplicity and performance.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Redux Tool Kit</li>
+              <li class="project__stack-item">Context API</li>
+            </ul>
+            <a
+              href="https://github.com/Nithya1234567890/image-uploader/"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/image-uploader/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Project 13</h3>
+            <h5 style="margin-top: 16px;">Weather-Forecast</h5>
+            <p class="project__description">Weather Forecast website is a modern and user-friendly website that provides real-time weather updates for any location worldwide. Built using HTML, CSS, and JavaScript, this website offers detailed weather information, including temperature, humidity, wind speed, and a 7-day forecast. </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JS</li>
+              <li class="project__stack-item">API</li>
+              <li class="project__stack-item">CSS3</li>
+            </ul>
+            <a
+              href="https://github.com/Nithya1234567890/weather-forecast-app/"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/weather-forecast-app/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Project 14</h3>
+            <h5 style="margin-top: 16px;">Quiz-App</h5>
+            <p class="project__description">QuizApp is an interactive and engaging quiz application built using React. This app allows users to test their knowledge across various topics by participating in quizzes. The user-friendly interface, dynamic question loading, and immediate feedback make it an enjoyable and educational experience.</p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Redux Tool Kit</li>
+              <li class="project__stack-item">Context API</li>
+            </ul>
+            <a
+              href="https://github.com/Nithya1234567890/quiz-app-react/"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/quiz-app-react/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Project 15</h3>
+            <h5 style="margin-top: 16px;">Calculator</h5>
+            <p class="project__description">Calculator is a sleek and functional online calculator designed to perform basic arithmetic operations with ease. Built using HTML, CSS, and JavaScript, this calculator offers a user-friendly interface and responsive design, making it accessible and convenient for everyday calculations.</p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Js</li>
+              <li class="project__stack-item">HTML5</li>
+              <li class="project__stack-item">CSS3</li>
+            </ul>
+            <a
+              href="https://github.com/Nithya1234567890/calculator/"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nithya1234567890.github.io/calculator/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Redux</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Next js</li>
+          <li class="skills__list-item btn btn--plain">UI/UX</li>
+          <li class="skills__list-item btn btn--plain">Mongo DB</li>
+          <li class="skills__list-item btn btn--plain">Project Management</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <h5 style="margin-bottom: 16px;">Let's Work Together</h5>
+        <a href="mailto:nithyamunagapati@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+        <br>
+        <a href="tel:+919398474164">
+          <span class="btn btn--outline">Contact me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/Nithya1234567890/My-Portfolio"
+        class="link footer__link"
+      >
+        Created By Nithya
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
